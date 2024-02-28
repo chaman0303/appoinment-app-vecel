@@ -16,7 +16,9 @@ export function TableData() {
   }, []);
 
   if (!data) return null;
-  // console.log(data.appointments,"data")
+
+  // console.log(data.appointments,"datas")
+
   return (
     <>
       <div className="container px-4 mx-auto sm:px-8">
